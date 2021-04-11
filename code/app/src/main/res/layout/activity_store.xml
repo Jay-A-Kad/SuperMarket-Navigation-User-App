@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".Home">
+
+    <!--    code for bottom navbar-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <!--    code for upper store bg-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_skin">
+
+        <ImageButton
+            android:src="@drawable/ic_shoppy_bag"
+            android:id="@+id/storeToCart"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/bg_skin"
+            android:text="Cart"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"/>.
+
+
+
+
+        <!--        store card- 1 -->
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/storeCard1"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#72efdd"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/store1"
+                    android:layout_width="350dp"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:onClick="onGroccery"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/groccerystoreimg" />.
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/store1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/introconda"
+                    android:text="Grocceries"
+                    android:textSize="26sp" />.
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--        store card- 2-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/storeCard2"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/storeCard1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#f28482"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/store2"
+                    android:layout_width="350dp"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:onClick="onClothing"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cothingstoreimg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/store2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/introconda"
+                    android:text="Clothing"
+                    android:textSize="26sp" />.
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/storeCard3"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/storeCard2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#b7e4c7"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/store3"
+                    android:layout_width="350dp"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/electronicstoreimg" />.
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/store3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/introconda"
+                    android:text="Electronics"
+                    android:textSize="26sp" />.
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

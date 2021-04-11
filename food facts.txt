@@ -1,0 +1,13 @@
+facts for recycler view
+
+1--Cucumbers are 96% water.
+2--Frozen vegetables are are even more nutritious than non-frozen veggies.
+3--Honey never expires.
+4--Cooking in the microwave is the best way to preserve the minerals and nutrients in food.
+5--It takes 700 gallons of water to make a cotton shirt.
+6--Shoes can take up to 1,000 years to break down. 
+7--The First Computer Mouse was Made of Wood.
+8--The first modern headphones were produced in the kitchen.
+9--Do you know more than 12,000 laptops go missing at US airports a week!
+
+

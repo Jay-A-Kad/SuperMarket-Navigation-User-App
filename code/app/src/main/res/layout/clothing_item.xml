@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/materialCardView"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">.
+
+        <TextView
+            android:id="@+id/txtItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="carrots"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25" />.
+
+        <TextView
+            android:id="@+id/txtAvailableItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stock available :"
+            android:fontFamily="@font/introconda"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtItemName" />
+
+        <TextView
+            android:id="@+id/txtNumberOfItemsAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20"
+            android:fontFamily="@font/introconda"
+            app:layout_constraintBottom_toBottomOf="@+id/txtAvailableItems"
+            app:layout_constraintStart_toEndOf="@+id/txtAvailableItems"
+            app:layout_constraintTop_toTopOf="@+id/txtAvailableItems" />.
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/introconda"
+            android:text="Price(in ₹) :"
+            app:layout_constraintBottom_toBottomOf="@+id/txtNumberOfItemsAvailable"
+            app:layout_constraintStart_toEndOf="@+id/txtNumberOfItemsAvailable"
+            app:layout_constraintTop_toTopOf="@+id/txtNumberOfItemsAvailable"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/txtProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/introconda"
+            android:text="15.00"
+            android:textColor="#dc2f02"
+            app:layout_constraintBottom_toBottomOf="@+id/txtPrice"
+            app:layout_constraintStart_toEndOf="@+id/txtPrice"
+            app:layout_constraintTop_toTopOf="@+id/txtPrice"
+            app:layout_constraintVertical_bias="0.0" />.
+
+
+        <Button
+            android:id="@+id/addToCartBtn"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:onClick="addProduct"
+            android:text="Add"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.41000003" />
+
+
+        <TextView
+            android:id="@+id/txtProductId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="product id"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/addToCartBtn"
+            app:layout_constraintStart_toStartOf="@+id/addToCartBtn"
+            app:layout_constraintTop_toBottomOf="@+id/addToCartBtn"
+            app:layout_constraintVertical_bias="0.44" />.
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

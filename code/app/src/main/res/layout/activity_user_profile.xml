@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />.
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/ic_wavesimage1">.
+
+            <ImageView
+                android:id="@+id/userprofile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="152dp"
+                android:layout_marginTop="202dp"
+                android:src="@drawable/ic_default_person" />.
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+            <TextView
+                android:id="@+id/customerName1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#faf9f9"
+                android:drawableLeft="@drawable/ic_profile"
+                android:textSize="22sp"
+                android:drawablePadding="20dp"
+                android:text="Your Name" />
+
+            <TextView
+                android:id="@+id/customerEmail1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#faf9f9"
+                android:drawableLeft="@drawable/ic_emailicon"
+                android:textSize="22sp"
+                android:drawablePadding="20dp"
+                android:text="Your Email" />
+
+            <TextView
+                android:id="@+id/customerPhone1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#faf9f9"
+                android:drawableLeft="@drawable/ic_phoneicon"
+                android:textSize="22sp"
+                android:drawablePadding="20dp"
+                android:text="Your Phone No" />
+
+
+
+
+            <Button
+                android:id="@+id/btnProfileLogout"
+                android:onClick="profileLogout"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:text="Logout" />.
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
