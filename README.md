@@ -1,3 +1,3 @@
 # SuperMarket-Navigation-User-App
 
-<div style="text-align=center"><h3>A modern approach towards traditional shopping experience</h3></div >
+<h3 style="text-align=center">A modern approach towards traditional shopping experience</h3>
