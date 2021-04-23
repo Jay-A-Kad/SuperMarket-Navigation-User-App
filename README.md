@@ -1,2 +1,3 @@
 # SuperMarket-Navigation-User-App
-Android supermarket store app using firebase database
+
+<div style="align=center">A modern approach towards traditional shopping experience</div >
