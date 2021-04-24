@@ -5,7 +5,15 @@
 
 <div align="center">
 
-  ![splash](media/splashLogin.gif)
+  ![dashboard](media/dashboard.gif)
 
 </div>
+
+
+<div align="center">
+
+  ![cart](media/cart.gif)
+
+</div>
+
 
