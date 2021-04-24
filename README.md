@@ -48,6 +48,9 @@
 
 <h4 style="text-align=center";font-family: "Robot Mono", Times, serif; padding :60px >when the user selects any items with the help of current user's unique hash id a temporary child is created and all the choosen cart items are stored and can be easily removed by the user. </h4>
 
+<h6>(Resources)</h6>
+<a href>https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView</a>
+
 
 
 
