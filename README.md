@@ -4,6 +4,15 @@
 
 
 
+<h4 style="text-align=center";font-family: "Robot Mono", Times, serif; padding :60px >This App is a part of my final year project which simulates as an online shopping SuperStore with store categpry such as Groccery, Clothing and Electronics."</h4>
+
+
+<h4 style="text-align=center";font-family: "Robot Mono", Times, serif; padding :60px >The Authentication is done using fAuth and is stored inside firestore.</h4>
+<a href text:="resources">https://firebase.google.com/docs/auth/android/firebaseui?authuser=2</a>
+
+
+
+
 
 
 
