@@ -11,6 +11,7 @@
 
 
 <h4 style="text-align=center";font-family: "Robot Mono", Times, serif; padding :60px >The Authentication is done using fAuth and is stored inside firestore.</h4>
+<h6>(Resource)</h6>
 <a href>https://firebase.google.com/docs/auth/android/firebaseui?authuser=2</a>
 
 
