@@ -11,7 +11,7 @@
 <h5 style="text-align=center";font-family: "Times New Roman", Times, serif; padding: 40px>User login along with the dashboard which contains a gist of modules implemented in this app</h5>
 <div align="center">
 
-  ![dashboard](media/dashboard.gif)
+  ![dashboard](media/dashbaord.gif)
 
 </div>
 
